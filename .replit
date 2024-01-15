@@ -1,5 +1,5 @@
 compile = "javac -classpath .:target/dependency/ -d ./target/dependency/ -encoding UTF-8 $(find ./MicroWave -type f -name '*.java')"
-run = "java -classpath .:target/dependency/ MicroWaveMain"
+run = "java -classpath .:target/dependency/ -Djava.awt.headless=false MicroWaveMain"
 hidden = ["**/*.class"]
 
 
